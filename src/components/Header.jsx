@@ -7,7 +7,7 @@ const navLinkStyles = ({ isActive }) => {
         textDecoration: isActive ? "underline" : "none",
     }
 }
-
+ 
 const Header = () => (
     <header className="d-flex justify-content-between container align-items-center my-2 border-bottom pb-2">
         <div className="d-flex gap-3">
