@@ -1,5 +1,5 @@
-.fs {
-  font-size: 0.7rem;
+.App {
+  text-align: left;
 }
 
 .wdt {
@@ -10,6 +10,24 @@
   color: #fff;
 }
 
-.mg-0 {
-  margin: 0;
+.fc-red {
+  color: red;
+}
+
+.vh {
+  height: 80vh;
+}
+
+.list-style {
+  list-style: none;
+}
+
+.vector {
+  width: 1px;
+  height: 25px;
+}
+
+.mainDiv img {
+  max-width: 250px;
+  padding-right: 1.5rem;
 }
