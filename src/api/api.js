@@ -3,7 +3,7 @@ const ROCKETS_API = 'https://api.spacexdata.com/v3/rockets';
 
 const apiGetElements = async (action) => {
   let response;
-  let rockets; 
+  let rockets;
   switch (action.type) {
     case GET_ROCKETS:
       response = await fetch(ROCKETS_API);
