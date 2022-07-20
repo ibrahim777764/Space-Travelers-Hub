@@ -61,7 +61,7 @@ const Missions = () => {
                       className="btn-outline-secondary rounded py-2"
                       onClick={() => {
                         handleJoinMission(element.id);
-                      }} 
+                      }}
                     >
                       JOIN MISSION
                     </button>
