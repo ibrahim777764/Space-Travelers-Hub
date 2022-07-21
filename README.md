@@ -50,6 +50,9 @@ I am an aspiring web developer from pakistan.
 - LinkedIn: [@ibrahimlin](https://www.linkedin.com/in/ibrahim-naseer-215667225/)
 
 👤 **sahar**
+- GitHub: [@Sahar-SEgit](https://github.com/Sahar-SE)
+- Gmail: saharsaba.amiri123@gmail.com
+- LinkedIn: https://www.linkedin.com/sahar-saba-amiri
 
 
 
