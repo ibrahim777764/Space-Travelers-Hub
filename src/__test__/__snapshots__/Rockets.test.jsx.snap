@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Group of tests for Rockets page renders rockets list correctly 1`] = `
+<div
+  className="container-fluid"
+>
+  <div
+    className="container-fluid d-flex my-4 mx-0 mainDiv"
+  >
+    <img
+      alt="Falcon 1"
+      className="img-fluid"
+      src="https://imgur.com/DaCfMsj.jpg"
+    />
+    <div>
+      <h3>
+        Falcon 1
+      </h3>
+      <div>
+        <button
+          bg="info"
+          type="button"
+        >
+          Reserved
+        </button>
+        <p>
+          The Falcon 1 was an expendable launch system privately developed and manufactured by SpaceX during 2006-2009. On 28 September 2008, Falcon 1 became the first privately-developed liquid-fuel launch vehicle to go into orbit around the Earth.
+        </p>
+      </div>
+      <button
+        className="btn2"
+        type="button"
+        variant="outline-danger"
+      >
+        Cancel reservation
+      </button>
+    </div>
+  </div>
+  <div
+    className="container-fluid d-flex my-4 mx-0 mainDiv"
+  >
+    <img
+      alt="Falcon 1"
+      className="img-fluid"
+      src="https://imgur.com/DaCfMsj.jpg"
+    />
+    <div>
+      <h3>
+        Falcon 1
+      </h3>
+      <div>
+        <button
+          bg="info"
+          type="button"
+        >
+          
+        </button>
+        <p>
+          The Falcon 1 was an expendable launch system privately developed and manufactured by SpaceX during 2006-2009. On 28 September 2008, Falcon 1 became the first privately-developed liquid-fuel launch vehicle to go into orbit around the Earth.
+        </p>
+      </div>
+      <button
+        className="btn2"
+        type="button"
+        variant="outline-secondary"
+      >
+        Reserve Rocket
+      </button>
+    </div>
+  </div>
+  <div
+    className="container-fluid d-flex my-4 mx-0 mainDiv"
+  >
+    <img
+      alt="Falcon 1"
+      className="img-fluid"
+      src="https://imgur.com/DaCfMsj.jpg"
+    />
+    <div>
+      <h3>
+        Falcon 1
+      </h3>
+      <div>
+        <button
+          bg="info"
+          type="button"
+        >
+          Reserved
+        </button>
+        <p>
+          The Falcon 1 was an expendable launch system privately developed and manufactured by SpaceX during 2006-2009. On 28 September 2008, Falcon 1 became the first privately-developed liquid-fuel launch vehicle to go into orbit around the Earth.
+        </p>
+      </div>
+      <button
+        className="btn2"
+        type="button"
+        variant="outline-danger"
+      >
+        Cancel reservation
+      </button>
+    </div>
+  </div>
+  ;
+</div>
+`;
