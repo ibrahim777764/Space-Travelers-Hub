@@ -2,9 +2,9 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-> Space Traveler's Hub is a project built with React redux, implemented with `Ducks` files structure and, React Router to interact between the different tabs of the project. In the Rockets tab, you can reserve or cancel a rocket, in the Missions tab you can join and leave a mission, and finally My Profile tab you find your current missions and rockets.
 
-![rockets](https://user-images.githubusercontent.com/91301423/156767747-742c3464-b9c6-4109-89a8-e6725a791e11.png)
+> In this task, we will be working with the real live data from the SpaceX API. our task is to build a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.
+
 
 
 ## Built With
