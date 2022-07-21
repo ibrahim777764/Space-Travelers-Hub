@@ -36,9 +36,9 @@ const Missions = () => {
               <td className="align-middle wdt">
                 {
                   element.reserved ? (
-                    <p className="fs bg-secondary text-center rounded fc mg-0 p-1">ACTIVE MEMBER</p>
+                    <p className="fs bg-info text-center rounded fc fw-bold m-0 p-1">ACTIVE MEMBER</p>
                   ) : (
-                    <p className="fs bg-secondary text-center rounded fc mg-0 p-1">NOT A MEMBER</p>
+                    <p className="fs bg-secondary text-center rounded fc m-0 p-1">NOT A MEMBER</p>
                   )
                 }
               </td>
@@ -48,7 +48,7 @@ const Missions = () => {
                   element.reserved ? (
                     <button
                       type="button"
-                      className="btn-outline-secondary rounded py-2"
+                      className="btn-outline-danger rounded py-2"
                       onClick={() => {
                         handleLeaveMission(element.id);
                       }}

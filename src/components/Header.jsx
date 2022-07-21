@@ -1,3 +1,5 @@
+/* eslint-disable react/self-closing-comp */
+
 import { NavLink } from 'react-router-dom';
 import logo from '../img/planet.png';
 
@@ -17,6 +19,7 @@ const Header = () => (
     <nav className="d-flex gap-3 text-decoration-none">
       <NavLink style={navLinkStyles} to="/">Rockets</NavLink>
       <NavLink style={navLinkStyles} to="/missions">Missions</NavLink>
+      <div className="vector border border-2 border-dark"></div>
       <NavLink style={navLinkStyles} to="/profile">My Profile</NavLink>
     </nav>
   </header>
