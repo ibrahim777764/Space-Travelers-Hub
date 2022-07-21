@@ -7,7 +7,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import Badge from 'react-bootstrap/Badge';
 import Button from 'react-bootstrap/Button';
 
-const RocketList = () => {
+const Rockets = () => {
   const dispatch = useDispatch();
   const rockets = useSelector((state) => state.rocketsReducer.rockets);
 
@@ -42,4 +42,4 @@ const RocketList = () => {
   );
 };
 
-export default RocketList;
+export default Rockets;
