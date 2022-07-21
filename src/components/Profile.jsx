@@ -1,4 +1,3 @@
-// import ListGroup from 'react-bootstrap/ListGroup';
 import React from 'react';
 import { useSelector } from 'react-redux';
 
@@ -19,9 +18,9 @@ const MyProfile = () => {
         </div>
       ) : (
 
-    <div className="border border-2 rounded">
-    <h4 className="p-3">No missions reserved</h4>
-    </div>
+        <div className="border border-2 rounded">
+          <h4 className="p-3">No missions reserved</h4>
+        </div>
       )}
       {joinedRockets.length ? (
         <div>
@@ -35,7 +34,7 @@ const MyProfile = () => {
       ) : (
 
         <div className="border border-2 rounded">
-          <h4 className="p-3">No Rockets</h4>
+          <h4 className="p-3">No rockets reserved</h4>
         </div>
       )}
     </div>
