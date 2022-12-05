@@ -1,5 +1,3 @@
-/* eslint-disable react/self-closing-comp */
-
 import { NavLink } from 'react-router-dom';
 import logo from '../img/planet.png';
 
