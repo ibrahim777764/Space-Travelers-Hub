@@ -1,5 +1,3 @@
-/* eslint-disable import/order */
-
 import {
   applyMiddleware,
   combineReducers,
