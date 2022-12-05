@@ -1,5 +1,3 @@
-/* eslint-disable import/order */
-
 import { joinMission, leaveMission } from '../redux/missions/missions';
 import { useDispatch, useSelector } from 'react-redux';
 
@@ -18,6 +16,7 @@ const Missions = () => {
   };
 
   return (
+    <>
     <div className="container">
       <Table striped bordered hover>
         <thead>
@@ -71,10 +70,9 @@ const Missions = () => {
             </tr>
           ))}
         </tbody>
-
       </Table>
-
     </div>
+  </>
   );
 };
 
