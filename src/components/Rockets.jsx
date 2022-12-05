@@ -1,5 +1,3 @@
-/* eslint-disable import/order */
-
 import React, { useEffect } from 'react';
 import { bookRocket, cancelBooking, fetchRockets } from '../redux/rockets/rockets';
 import { useDispatch, useSelector } from 'react-redux';
@@ -21,6 +19,7 @@ const Rockets = () => {
   const handleReserved = (reserved) => (reserved ? { badge: 'Reserved', class: 'outline-danger' } : { badge: '', class: 'outline-secondary' });
 
   return (
+    <>
     <div className="container-fluid">
       {
         rockets.map((item) => (
@@ -39,6 +38,7 @@ const Rockets = () => {
       }
       ;
     </div>
+  </>
   );
 };
 
